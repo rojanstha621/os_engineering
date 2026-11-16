@@ -18,7 +18,7 @@
   --white: #fff;
   --shell: 1600px;
   --page-gutter: clamp(20px, 2.2vw, 36px);
-  --header-height: 80px;
+  --header-height: 72px;
   --section-space: 56px;
 }
 
@@ -50,12 +50,12 @@ button { border-radius: 0; }
 .brand-image { display: block; position: relative; width: 100%; aspect-ratio: 1344 / 248; overflow: hidden; }
 .brand-image img { position: absolute; width: 107.7381%; max-width: none; height: auto; left: -4.7619%; top: -167.7419%; }
 .menu-button { display: grid; place-items: center; width: 45px; height: 45px; background: var(--navy); color: white; border: 0; flex-shrink: 0; position: relative; z-index: 81; }
-.site-nav { position: fixed; z-index: 80; top: var(--header-height); left: 0; right: 0; display: flex; flex-direction: column; gap: 0; padding: 14px 20px 24px; background: var(--paper); border-bottom: 1px solid var(--line); box-shadow: 0 18px 28px rgb(22 44 63 / .1); visibility: hidden; opacity: 0; transform: translateY(-8px); pointer-events: none; transition: opacity .18s, transform .18s, visibility .18s; }
+.site-nav { position: fixed; z-index: 80; top: 72px; left: 0; right: 0; display: flex; flex-direction: column; gap: 0; padding: 14px 20px 24px; background: var(--paper); border-bottom: 1px solid var(--line); box-shadow: 0 18px 28px rgb(22 44 63 / .1); visibility: hidden; opacity: 0; transform: translateY(-8px); pointer-events: none; transition: opacity .18s, transform .18s, visibility .18s; }
 .site-nav.is-open { visibility: visible; opacity: 1; transform: translateY(0); pointer-events: auto; }
 .site-nav a { display: flex; min-height: 49px; align-items: center; justify-content: space-between; padding: 12px 4px; border-bottom: 1px solid var(--line); font-size: 14px; font-weight: 700; }
 .site-nav a:hover { color: var(--orange); }
 .site-nav .nav-contact { margin-top: 16px; padding: 15px 18px; background: var(--navy); color: #fff; border-bottom: 0; }
-.nav-overlay { position: fixed; z-index: 60; inset: var(--header-height) 0 0; width: 100%; background: rgb(13 34 48 / .36); border: 0; }
+.nav-overlay { position: fixed; z-index: 60; inset: 72px 0 0; width: 100%; background: rgb(13 34 48 / .36); border: 0; }
 
 /* Hero */
 /* Reserve the opening viewport for the hero; allow content to grow on short screens. */
@@ -284,7 +284,7 @@ h1 em, h2 em { font-style: normal; font-weight: inherit; color: #8195a2; }
 }
 
 @media (min-width: 900px) {
-  :root { --header-height: 78px; }
+  :root { --header-height: 70px; }
   .menu-button, .nav-overlay { display: none; }
   .site-nav { display: flex; position: static; z-index: auto; visibility: visible; opacity: 1; transform: none; pointer-events: auto; flex-direction: row; align-items: center; gap: clamp(14px, 2.3vw, 32px); padding: 0; border: 0; background: transparent; box-shadow: none; }
   .site-nav a { min-height: 44px; padding: 10px 0; border: 0; color: #526677; font-size: 12px; font-weight: 600; }
