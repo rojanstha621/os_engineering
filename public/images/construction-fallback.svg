@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660" role="img" aria-labelledby="title">
+ <title id="title">Illustrative architectural construction scene</title>
+ <rect width="900" height="660" fill="#dce7e9"/>
+ <path d="M0 510h900v150H0Z" fill="#acbfc6"/>
+ <g fill="#91a7b3" opacity=".64"><path d="M30 250h160v260H30zM210 310h115v200H210zM685 200h176v310H685z"/></g>
+ <g fill="#506d7e"><rect x="315" y="205" width="250" height="305"/><rect x="570" y="270" width="85" height="240"/></g>
+ <g fill="#b4c8d0"><path d="M345 232h46v47h-46zm70 0h46v47h-46zm70 0h46v47h-46zm-140 78h46v47h-46zm70 0h46v47h-46zm70 0h46v47h-46zm-140 78h46v47h-46zm70 0h46v47h-46zm70 0h46v47h-46z"/></g>
+ <g stroke="#d47c40" stroke-width="8" fill="none"><path d="M638 503V96M400 115h400M638 84V115M710 115v177"/><path d="M638 84l-110 31 220 0Z"/><path d="M638 84L400 115m238-31 162 31" stroke-width="3"/></g>
+ <g stroke="#d47c40" stroke-width="4"><path d="M617 480l42-46m-42 0 42 46m-42-93 42-46m-42 0 42 46m-42-93 42-46m-42 0 42 46m-42-93 42-46"/></g>
+ <path d="M710 292v40q0 18-15 15" fill="none" stroke="#253d50" stroke-width="7"/>
+ <rect x="55" y="572" width="380" height="40" fill="#1a3548" opacity=".9"/>
+ <text x="74" y="597" font-size="14" font-family="sans-serif" font-weight="700" letter-spacing="3" fill="white">ILLUSTRATIVE CONSTRUCTION</text>
+</svg>
