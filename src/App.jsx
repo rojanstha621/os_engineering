@@ -180,7 +180,13 @@ function About() {
             <div><span>01</span><p><strong>Project-led thinking</strong><small>Solutions shaped around the work at hand.</small></p></div>
             <div><span>02</span><p><strong>Connected capabilities</strong><small>Construction services alongside supply needs.</small></p></div>
           </div>
-          <a href="#contact" className="inline-link">Company information <ArrowUpRight size={17} aria-hidden="true" /></a>
+          <div className="about-bottom-row">
+            <a href="#contact" className="inline-link">Company information <ArrowUpRight size={17} aria-hidden="true" /></a>
+            <figure className="company-stamp">
+              <img src="/images/company-official-stamp.webp" width="1275" height="1290" loading="lazy" decoding="async" alt="Official O.S Engineering Nirman Sewa company stamp" />
+              <figcaption>OFFICIAL COMPANY STAMP</figcaption>
+            </figure>
+          </div>
         </div>
       </div>
     </section>

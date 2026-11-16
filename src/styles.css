@@ -136,6 +136,14 @@ h1 em, h2 em { font-style: normal; font-weight: inherit; color: #8195a2; }
 .about-media-corner span { font-size: 10px; }
 .about-copy h2 { max-width: 650px; }
 .about-copy .about-lead { color: #3b5365; font-size: 15px; font-weight: 600; }
+.about-bottom-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 22px; margin-top: 24px; }
+.company-stamp { display: flex; align-items: center; gap: 10px; margin: 0; }
+.company-stamp img { width: 56px; height: 56px; object-fit: contain; mix-blend-mode: multiply; }
+.company-stamp figcaption { max-width: 76px; color: #87949a; font-size: 7px; font-weight: 800; line-height: 1.45; letter-spacing: .1em; }
+@media (max-width: 479px) {
+  .about-bottom-row { align-items: flex-start; }
+  .company-stamp img { width: 48px; height: 48px; }
+}
 .about-notes { display: grid; gap: 13px; margin: 29px 0 25px; }
 .about-notes > div { display: flex; gap: 18px; padding-block: 12px; border-top: 1px solid var(--line); }
 .about-notes > div > span { flex-shrink: 0; color: var(--orange); font-size: 10px; font-weight: 800; }
